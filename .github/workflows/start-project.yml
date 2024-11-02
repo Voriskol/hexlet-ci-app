@@ -12,3 +12,5 @@ jobs:
         run: make test
       - name: run linter
         run: make lint
+      - name: hello-from-hexlet
+        run: hexlet-components/hello-from-hexlet-action@release
